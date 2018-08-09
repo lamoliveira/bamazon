@@ -62,7 +62,7 @@ Screenshots:
 
 - Create database and table
 
-![Image of database](https://github.com/lamoliveira/bamazon/images/createdb.jpg)
+![Image of database](https://github.com/lamoliveira/bamazon/blob/master/images/createdb.jpg)
 
 - Insert sample rows 
 ![Image of database](https://github.com/lamoliveira/bamazon/images/insert.jpg)
