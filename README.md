@@ -61,9 +61,10 @@ use the script in the createdb.sql to create the database in MySQL Workbench and
 Screenshots:
 
 - Create database and table
-![Image of database](https://github.com/lamoliveira/bamazon/createdb.JPG)
+![Image of database](https://github.com/lamoliveira/bamazon/images/createdb.jpg)
 
 - Insert sample rows 
+![Image of database](https://github.com/lamoliveira/bamazon/images/insert.jpg)
 
 - Don't forget to install node modules using git bash "npm install"
 
@@ -71,19 +72,24 @@ bamanager.js
 
 
     * View Products for Sale
-    
+    ![Image of products](https://github.com/lamoliveira/bamazon/images/cap1.jpg)
+
     * View Low Inventory
-    
+    ![Image of lowinventory](https://github.com/lamoliveira/bamazon/images/cap2.jpg)
+
     * Add to Inventory
+    ![Image of addinventory](https://github.com/lamoliveira/bamazon/images/cap3.jpg)
     
     * Add New Product
+    ![Image of newproduct](https://github.com/lamoliveira/bamazon/images/cap4.jpg)
 
 bamanager.js
 
     * 3 sample Completed purchases
-    
-    * Sample Purchase cancelled due to lack of product stock
+    ![Image of completedpurchase](https://github.com/lamoliveira/bamazon/images/cap6.jpg)
 
+    * Sample Purchase cancelled due to lack of product stock
+    ![Image of cancelled](https://github.com/lamoliveira/bamazon/images/cap7.jpg)
 
 - - -
 
