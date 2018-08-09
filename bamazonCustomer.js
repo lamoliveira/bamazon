@@ -20,11 +20,34 @@ connection.connect(function (err) {
 });
 var itemSelected;
 
+
+function format(strtoformat, qtychar) {
+    var id = " " + strtoformat;
+    id = " ".repeat(qtychar - id.trimLeft.length);
+    id = strtoformat + id;
+    id = id.substring(0, qtychar);
+    //console.log(id);
+    return id;
+}
+
 function start() {
     // query for all items
+
     connection.query("SELECT * FROM products", function (err, results) {
         if (err) throw err;
         //Display available items
+                var productstring = "||ID   ||Product             ||Department||Price     ||Qtty ||";
+                productstring += "\r\n" + "=".repeat(62);
+                for (var i = 0; i < results.length; i++) {
+                    productstring += "\r\n" + "||" + format(results[i].item_id, 5) + "||" + format(results[i].product_name, 20) +
+                        "||" + format(results[i].department_name, 10) +
+                        "||" + format(results[i].price, 10) +
+                        "||" + format(results[i].stock_quantity, 5) + "||";
+                }
+                console.log("=".repeat(62));
+                console.log(productstring);
+                console.log("=".repeat(62));
+         
         // prompt user to choose what to buy     
         inquirer
             .prompt([
@@ -52,8 +75,8 @@ function start() {
                 //console.log("selected: "+answer.selected);
                 
                 for (var i = 0; i < results.length; i++) {
-                    console.log("for: "+ i);
-                    console.log("prod" + results[i].product_name );
+                    //console.log("for: "+ i);
+                    //console.log("prod" + results[i].product_name );
                     if (results[i].product_name === answer.selected) {
                         itemSelected = results[i];
                     }
