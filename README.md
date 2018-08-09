@@ -65,6 +65,7 @@ Screenshots:
 ![Image of database](https://github.com/lamoliveira/bamazon/blob/master/images/createdb.jpg)
 
 - Insert sample rows 
+
 ![Image of database](https://github.com/lamoliveira/bamazon/blob/master/images/insert.jpg)
 
 - Don't forget to install node modules using git bash "npm install"
@@ -73,23 +74,29 @@ bamanager.js
 
 
 * View Products for Sale
+
     ![Image of products](https://github.com/lamoliveira/bamazon/blob/master/images/cap1.jpg)
 
 * View Low Inventory
+
     ![Image of lowinventory](https://github.com/lamoliveira/bamazon/blob/master/images/cap2.jpg)
 
 * Add to Inventory
+
     ![Image of addinventory](https://github.com/lamoliveira/bamazon/blob/master/images/cap3.jpg)
     
 * Add New Product
+
     ![Image of newproduct](https://github.com/lamoliveira/bamazon/blob/master/images/cap4.jpg)
 
 bamanager.js
 
 * 3 sample Completed purchases
+
     ![Image of completedpurchase](https://github.com/lamoliveira/bamazon/blob/master/images/cap6.jpg)
 
 * Sample Purchase cancelled due to lack of product stock
+
     ![Image of cancelled](https://github.com/lamoliveira/bamazon/blob/master/images/cap7.jpg)
 
 - - -
