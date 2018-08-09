@@ -61,6 +61,7 @@ use the script in the createdb.sql to create the database in MySQL Workbench and
 Screenshots:
 
 - Create database and table
+
 ![Image of database](https://github.com/lamoliveira/bamazon/images/createdb.jpg)
 
 - Insert sample rows 
